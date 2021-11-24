@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "769788399629",
+    "project_id": "flutter-firebase-ecommerce",
+    "storage_bucket": "flutter-firebase-ecommerce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769788399629:android:639a2c93ea0a8b0d8fc544",
+        "android_client_info": {
+          "package_name": "com.fsd.ecommerce_freak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769788399629-te1mkiige1g8jrukgadteufbspi5dv44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClsIhH36eCloRwVnRPkhbmDPssM87MU8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769788399629-te1mkiige1g8jrukgadteufbspi5dv44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

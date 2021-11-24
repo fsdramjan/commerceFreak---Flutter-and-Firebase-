@@ -1,0 +1,61 @@
+name: image_upload_firebase
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get:
+  firebase_core:
+  firebase_auth:
+  bottom_navy_bar: 
+  cloud_firestore:
+  google_sign_in: 
+  http:
+  image_picker:
+  firebase_storage:
+  uuid:
+  hexcolor:
+  eva_icons_flutter: ^3.0.2
+  cached_network_image: ^3.1.0+1
+  flutter_svg: ^0.23.0+1
+  carousel_slider:
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/img/
+    - assets/icons/
+
+
+  fonts:
+    - family: Poppins Regular
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+    - family: Poppins Bold
+      fonts:
+        - asset: fonts/Poppins-Bold.ttf
+    - family: Poppins Semi Bold
+      fonts:
+        - asset: fonts/Poppins-SemiBold.ttf
+    - family: Poppins Medium
+      fonts:
+        - asset: fonts/Poppins-Medium.ttf
