@@ -2,11 +2,11 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:image_upload_firebase/src/authentication/Auth.dart';
-import 'package:image_upload_firebase/src/authentication/googleSignIn.dart';
-import 'package:image_upload_firebase/src/components/background.dart';
-import 'package:image_upload_firebase/src/pages/registerPage.dart';
-import 'package:image_upload_firebase/src/widgets/kText.dart';
+import 'package:ecommerce_freak/src/authentication/Auth.dart';
+import 'package:ecommerce_freak/src/authentication/googleSignIn.dart';
+import 'package:ecommerce_freak/src/components/background.dart';
+import 'package:ecommerce_freak/src/pages/registerPage.dart';
+import 'package:ecommerce_freak/src/widgets/kText.dart';
 
 class LoginPage extends StatelessWidget {
   final _ = Get.put(AuthenticateC(), permanent: true);

@@ -2,10 +2,10 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:image_upload_firebase/src/authentication/Auth.dart';
-import 'package:image_upload_firebase/src/controllers/BaseController.dart';
-import 'package:image_upload_firebase/src/pages/profilePage.dart';
-import 'package:image_upload_firebase/src/widgets/kText.dart';
+import 'package:ecommerce_freak/src/authentication/Auth.dart';
+import 'package:ecommerce_freak/src/controllers/BaseController.dart';
+import 'package:ecommerce_freak/src/pages/profilePage.dart';
+import 'package:ecommerce_freak/src/widgets/kText.dart';
 
 class SettingsPage extends StatelessWidget with BaseController {
   final _ = Get.put(AuthenticateC(), permanent: true);

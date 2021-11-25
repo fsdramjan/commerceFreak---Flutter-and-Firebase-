@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:image_upload_firebase/src/controllers/productController.dart';
-import 'package:image_upload_firebase/src/helpers/all_Icons.dart';
-import 'package:image_upload_firebase/src/configs/appColors.dart';
-import 'package:image_upload_firebase/src/pages/productDetailsPage.dart';
-import 'package:image_upload_firebase/src/widgets/kText.dart';
+import 'package:ecommerce_freak/src/controllers/productController.dart';
+import 'package:ecommerce_freak/src/helpers/all_Icons.dart';
+import 'package:ecommerce_freak/src/configs/appColors.dart';
+import 'package:ecommerce_freak/src/pages/productDetailsPage.dart';
+import 'package:ecommerce_freak/src/widgets/kText.dart';
 
 class AllProductComponent extends StatelessWidget {
   // final listProduct = [

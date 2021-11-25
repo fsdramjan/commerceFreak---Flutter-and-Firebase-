@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:image_upload_firebase/src/configs/appColors.dart';
-import 'package:image_upload_firebase/src/helpers/all_Icons.dart';
-import 'package:image_upload_firebase/src/widgets/kText.dart';
+import 'package:ecommerce_freak/src/configs/appColors.dart';
+import 'package:ecommerce_freak/src/helpers/all_Icons.dart';
+import 'package:ecommerce_freak/src/widgets/kText.dart';
 
 class MenuCatagoryComponent extends StatelessWidget {
   final catagoryMenu = [

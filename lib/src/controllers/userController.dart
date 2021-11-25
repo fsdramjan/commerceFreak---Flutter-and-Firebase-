@@ -5,7 +5,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:image_upload_firebase/src/helpers/getFileName.dart';
+import 'package:ecommerce_freak/src/helpers/getFileName.dart';
 
 class UserController extends GetxController {
   //

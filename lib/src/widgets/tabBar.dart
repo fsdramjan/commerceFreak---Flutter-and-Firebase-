@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:image_upload_firebase/src/configs/appColors.dart';
-import 'package:image_upload_firebase/src/pages/profilePage.dart';
-import 'package:image_upload_firebase/src/pages/settingsPage.dart';
+import 'package:ecommerce_freak/src/configs/appColors.dart';
+import 'package:ecommerce_freak/src/pages/profilePage.dart';
+import 'package:ecommerce_freak/src/pages/settingsPage.dart';
 
 import 'kText.dart';
 

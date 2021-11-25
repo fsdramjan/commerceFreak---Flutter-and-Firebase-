@@ -1,9 +1,10 @@
+import 'package:ecommerce_freak/src/UIelements/topBarElements.dart';
+import 'package:ecommerce_freak/src/configs/appColors.dart';
+import 'package:ecommerce_freak/src/controllers/productController.dart';
+import 'package:ecommerce_freak/src/widgets/kText.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:image_upload_firebase/src/UIelements/topBarElements.dart';
-import 'package:image_upload_firebase/src/configs/appColors.dart';
-import 'package:image_upload_firebase/src/controllers/productController.dart';
-import 'package:image_upload_firebase/src/widgets/kText.dart';
+
 
 class CartPage extends StatefulWidget {
   const CartPage({Key? key}) : super(key: key);

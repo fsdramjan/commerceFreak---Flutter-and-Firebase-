@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:image_upload_firebase/src/UIelements/topBarElements.dart';
-import 'package:image_upload_firebase/src/helpers/all_Icons.dart';
-import 'package:image_upload_firebase/src/configs/appColors.dart';
-import 'package:image_upload_firebase/src/widgets/kText.dart';
-import 'package:image_upload_firebase/src/widgets/tabBar.dart';
+import 'package:ecommerce_freak/src/UIelements/topBarElements.dart';
+import 'package:ecommerce_freak/src/helpers/all_Icons.dart';
+import 'package:ecommerce_freak/src/configs/appColors.dart';
+import 'package:ecommerce_freak/src/widgets/kText.dart';
+import 'package:ecommerce_freak/src/widgets/tabBar.dart';
 
 class ProductDetailsPage extends StatelessWidget {
   final String id;
@@ -55,7 +55,6 @@ class ProductDetailsPage extends StatelessWidget {
                       Padding(
                         padding: EdgeInsets.symmetric(horizontal: 10),
                         child: Container(
-                        
                           child: Image.asset(
                             '${item['image']}',
                           ),

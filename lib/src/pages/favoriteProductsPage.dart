@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
-import 'package:image_upload_firebase/src/UIelements/topBarElements.dart';
-import 'package:image_upload_firebase/src/helpers/all_Icons.dart';
-import 'package:image_upload_firebase/src/configs/appColors.dart';
-import 'package:image_upload_firebase/src/pages/productDetailsPage.dart';
-import 'package:image_upload_firebase/src/widgets/kText.dart';
+import 'package:ecommerce_freak/src/UIelements/topBarElements.dart';
+import 'package:ecommerce_freak/src/helpers/all_Icons.dart';
+import 'package:ecommerce_freak/src/configs/appColors.dart';
+import 'package:ecommerce_freak/src/pages/productDetailsPage.dart';
+import 'package:ecommerce_freak/src/widgets/kText.dart';
 
 class FavoriteProductsPage extends StatelessWidget {
   final listProduct = [

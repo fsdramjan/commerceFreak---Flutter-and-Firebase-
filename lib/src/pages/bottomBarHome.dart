@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:image_upload_firebase/src/helpers/all_Icons.dart';
-import 'package:image_upload_firebase/src/configs/appColors.dart';
-import 'package:image_upload_firebase/src/pages/cartPage.dart';
-import 'package:image_upload_firebase/src/pages/favoriteProductsPage.dart';
+import 'package:ecommerce_freak/src/helpers/all_Icons.dart';
+import 'package:ecommerce_freak/src/configs/appColors.dart';
+import 'package:ecommerce_freak/src/pages/cartPage.dart';
+import 'package:ecommerce_freak/src/pages/favoriteProductsPage.dart';
 
-import 'package:image_upload_firebase/src/pages/settingsPage.dart';
+import 'package:ecommerce_freak/src/pages/settingsPage.dart';
 
 import 'homePage.dart';
 

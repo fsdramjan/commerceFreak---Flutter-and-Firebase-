@@ -2,9 +2,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:image_upload_firebase/src/pages/bottomBarHome.dart';
-import 'package:image_upload_firebase/src/pages/loginPage.dart';
-import 'package:image_upload_firebase/src/widgets/kText.dart';
+import 'package:ecommerce_freak/src/pages/bottomBarHome.dart';
+import 'package:ecommerce_freak/src/pages/loginPage.dart';
+import 'package:ecommerce_freak/src/widgets/kText.dart';
 
 class AuthenticateC extends GetxController {
   final loginEmail = RxString('');

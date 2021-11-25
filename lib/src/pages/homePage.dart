@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:image_upload_firebase/src/components/allProductComponents.dart';
-import 'package:image_upload_firebase/src/components/menuCatagoryComponents.dart';
+import 'package:ecommerce_freak/src/components/allProductComponents.dart';
+import 'package:ecommerce_freak/src/components/menuCatagoryComponents.dart';
 
-import 'package:image_upload_firebase/src/components/searchComponent.dart';
-import 'package:image_upload_firebase/src/configs/appColors.dart';
-import 'package:image_upload_firebase/src/components/carosolSliderComponent.dart';
-import 'package:image_upload_firebase/src/pages/cartPage.dart';
+import 'package:ecommerce_freak/src/components/searchComponent.dart';
+import 'package:ecommerce_freak/src/configs/appColors.dart';
+import 'package:ecommerce_freak/src/components/carosolSliderComponent.dart';
+import 'package:ecommerce_freak/src/pages/cartPage.dart';
 
 class HomePage extends StatelessWidget {
   @override

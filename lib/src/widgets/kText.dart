@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:image_upload_firebase/src/configs/appColors.dart';
+import 'package:ecommerce_freak/src/configs/appColors.dart';
 
 class KText extends StatelessWidget {
   final String text;

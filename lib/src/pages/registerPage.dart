@@ -2,10 +2,10 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:image_upload_firebase/src/authentication/Auth.dart';
-import 'package:image_upload_firebase/src/components/background.dart';
-import 'package:image_upload_firebase/src/pages/loginPage.dart';
-import 'package:image_upload_firebase/src/widgets/kText.dart';
+import 'package:ecommerce_freak/src/authentication/Auth.dart';
+import 'package:ecommerce_freak/src/components/background.dart';
+import 'package:ecommerce_freak/src/pages/loginPage.dart';
+import 'package:ecommerce_freak/src/widgets/kText.dart';
 
 class RegisterPage extends StatelessWidget {
   final _ = Get.put(AuthenticateC(), permanent: true);
@@ -123,7 +123,7 @@ class RegisterPage extends StatelessWidget {
                     child: RaisedButton(
                       onPressed: () {
                         // if (_formKey.currentState!.validate()) {
-                          _.userRegister(context);
+                        _.userRegister(context);
                         // }
                       },
                       shape: RoundedRectangleBorder(

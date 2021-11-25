@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:image_upload_firebase/src/controllers/BaseController.dart';
-import 'package:image_upload_firebase/src/widgets/kText.dart';
+import 'package:ecommerce_freak/src/controllers/BaseController.dart';
+import 'package:ecommerce_freak/src/widgets/kText.dart';
 
 class ChatPage extends StatelessWidget with BaseController {
   @override
