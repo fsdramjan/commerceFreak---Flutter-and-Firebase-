@@ -1,14 +1,15 @@
 import 'dart:ui';
 
+import 'package:ecommerce_freak/src/configs/appColors.dart';
+import 'package:ecommerce_freak/src/controllers/BaseController.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ecommerce_freak/src/authentication/Auth.dart';
-import 'package:ecommerce_freak/src/authentication/googleSignIn.dart';
 import 'package:ecommerce_freak/src/components/background.dart';
 import 'package:ecommerce_freak/src/pages/registerPage.dart';
 import 'package:ecommerce_freak/src/widgets/kText.dart';
 
-class LoginPage extends StatelessWidget {
+class LoginPage extends StatelessWidget with BaseController {
   final _ = Get.put(AuthenticateC(), permanent: true);
   final _formKey = GlobalKey<FormState>();
 
@@ -139,19 +140,31 @@ class LoginPage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       InkWell(
-                        onTap: () => Get.to(SignInDemo()),
+                        onTap: () => authC.signInWithFacebook(context),
+
                         child: CircleAvatar(
-                          backgroundColor: Colors.red,
-                          child: Image.asset('assets/img/gmail1.png'),
+                          radius: 15,
+                          child: KText(
+                            text: 'f',
+                            color: white,
+                            fontSize: 20,
+                            fontFamily: medium,
+                          ),
                         ),
                       ),
-                      SizedBox(width: 10),
-                      CircleAvatar(
-                        child: KText(
-                          text: 'f',
-                          color: Colors.white,
-                          fontSize: 30,
-                          fontWeight: FontWeight.bold,
+                      SizedBox(width: 20),
+                      InkWell(
+                        onTap: () => authC.signInWithGoogle(context),
+                        child: CircleAvatar(
+                          radius: 15,
+                          backgroundColor: red,
+                          child: Center(
+                            child: KText(
+                              text: 'G',
+                              color: white,
+                              fontSize: 20,
+                            ),
+                          ),
                         ),
                       ),
                     ],

@@ -11,7 +11,7 @@ class SplashPage extends StatelessWidget with BaseController {
 
     return Scaffold(
       body: Center(
-        child: KText(text: 'Splash Screen'),
+        child: RichText(text: TextSpan(children: [])),
       ),
     );
   }

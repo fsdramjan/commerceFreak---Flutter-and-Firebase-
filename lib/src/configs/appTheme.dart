@@ -7,8 +7,9 @@ class AppTheme {
     scaffoldBackgroundColor: backgroundColor,
     fontFamily: regular,
     appBarTheme: AppBarTheme(
+      centerTitle: true,
       elevation: 0,
-      // color: black,
+      backgroundColor: backgroundColor,
       titleTextStyle: TextStyle(
         color: black,
         fontSize: 14,

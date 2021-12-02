@@ -1,3 +1,4 @@
+import 'package:ecommerce_freak/src/controllers/BaseController.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ecommerce_freak/src/components/allProductComponents.dart';
@@ -8,11 +9,11 @@ import 'package:ecommerce_freak/src/configs/appColors.dart';
 import 'package:ecommerce_freak/src/components/carosolSliderComponent.dart';
 import 'package:ecommerce_freak/src/pages/cartPage.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatelessWidget with BaseController {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-      child: Scaffold(
+      child: Scaffold( 
         body: SingleChildScrollView(
           physics: BouncingScrollPhysics(),
           child: Column(
@@ -65,3 +66,5 @@ class HomePage extends StatelessWidget {
     );
   }
 }
+
+      

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:ecommerce_freak/src/configs/appColors.dart';
 
 class KText extends StatelessWidget {
@@ -32,7 +31,7 @@ class KText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(
-      '$text'.tr,
+      '$text',
       style: TextStyle(
         decoration: decoration,
         fontSize: fontSize != null ? fontSize : 14,

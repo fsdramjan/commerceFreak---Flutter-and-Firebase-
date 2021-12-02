@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 const Color white = Colors.white;
+const Color grey = Colors.grey;
 const Color black = Colors.black;
 const Color black87 = Colors.black87;
 const Color black54 = Colors.black54;

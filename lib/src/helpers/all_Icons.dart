@@ -38,3 +38,6 @@ const String slider2 = 'assets/img/slider_2.png';
 const String slider3 = 'assets/img/slider_3.png';
 const String slider4 = 'assets/img/slider_4.png';
 
+//
+
+

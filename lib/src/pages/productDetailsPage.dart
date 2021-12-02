@@ -1,3 +1,4 @@
+import 'package:ecommerce_freak/src/pages/cartPage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
@@ -200,20 +201,23 @@ class ProductDetailsPage extends StatelessWidget {
                   ),
                   SizedBox(width: 20),
                   Expanded(
-                    child: Container(
-                      height: 45,
-                      width: Get.width,
-                      decoration: BoxDecoration(
-                          color: buttonColor,
-                          borderRadius: BorderRadius.circular(10)),
-                      child: Padding(
-                        padding: EdgeInsets.all(8.0),
-                        child: Center(
-                          child: KText(
-                            text: 'Add to Cart',
-                            color: white,
-                            fontSize: 16,
-                            fontFamily: medium,
+                    child: GestureDetector(
+                      onTap: () => Get.to(CartPage()),
+                      child: Container(
+                        height: 45,
+                        width: Get.width,
+                        decoration: BoxDecoration(
+                            color: buttonColor,
+                            borderRadius: BorderRadius.circular(10)),
+                        child: Padding(
+                          padding: EdgeInsets.all(8.0),
+                          child: Center(
+                            child: KText(
+                              text: 'Add to Cart',
+                              color: white,
+                              fontSize: 14,
+                              fontFamily: medium,
+                            ),
                           ),
                         ),
                       ),

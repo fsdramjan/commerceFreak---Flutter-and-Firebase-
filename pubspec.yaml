@@ -19,7 +19,7 @@ dependencies:
   bottom_navy_bar: 
   cloud_firestore:
   google_sign_in: 
-  http:
+  flutter_facebook_auth:
   image_picker:
   firebase_storage:
   uuid:
@@ -28,7 +28,6 @@ dependencies:
   cached_network_image: ^3.1.0+1
   flutter_svg: ^0.23.0+1
   carousel_slider:
-
 
 
 dev_dependencies:

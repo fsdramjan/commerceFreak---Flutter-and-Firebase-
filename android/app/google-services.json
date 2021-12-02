@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "769788399629-sg5fha281jaq7pvkror08dr5i9qk9msh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fsd.ecommerce_freak",
+            "certificate_hash": "9dcef55d2347e9573ec39b1db7603c828e1e9f79"
+          }
+        },
+        {
           "client_id": "769788399629-te1mkiige1g8jrukgadteufbspi5dv44.apps.googleusercontent.com",
           "client_type": 3
         }
