@@ -17,13 +17,16 @@ class SplashPage extends StatelessWidget with BaseController {
               TextSpan(
                 text: 'Ecommerce',
                 style: TextStyle(
-                  color: red,
+                  color: black,
+                  fontSize:25,
                 ),
               ),
               TextSpan(
                 text: 'Freak',
                 style: TextStyle(
-                  color: black,
+                  color: buttonColor,
+                  fontSize: 25,
+
                 ),
               ),
             ],

@@ -1,3 +1,4 @@
+import 'package:ecommerce_freak/src/tabbar/descriptionTab.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -77,7 +78,7 @@ class _TabbarCustomState extends State<TabbarCustom>
                     child: TabBarView(
                       controller: _tabController,
                       children: [
-                        description(),
+                        DescriptionTab(),
                         ProfilePage(),
                         SettingsPage(),
                       ],

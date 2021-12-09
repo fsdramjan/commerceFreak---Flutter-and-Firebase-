@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget with BaseController {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-      child: Scaffold( 
+      child: Scaffold(
         body: SingleChildScrollView(
           physics: BouncingScrollPhysics(),
           child: Column(
@@ -66,5 +66,3 @@ class HomePage extends StatelessWidget with BaseController {
     );
   }
 }
-
-      

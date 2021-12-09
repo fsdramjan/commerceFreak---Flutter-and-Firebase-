@@ -164,6 +164,10 @@ class AuthenticateC extends GetxController {
     Get.offAll(BottomBarHome());
   }
 
+  getUserUid(){}
+
+
+
   Future<bool> isUserExists(String uid) async {
     final user = await _firestore.collection('users').doc(uid).get();
     return user.exists;

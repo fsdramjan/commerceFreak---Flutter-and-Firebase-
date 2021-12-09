@@ -1,3 +1,4 @@
+import 'package:ecommerce_freak/src/pages/cartPage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -27,16 +28,19 @@ Widget centerText(String title) {
 }
 
 Widget shoppingBagTopBar() {
-  return Padding(
-    padding: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
-    child: Container(
-      width: 35,
-      decoration: BoxDecoration(
-          color: pinkAncent.withOpacity(.50),
-          borderRadius: BorderRadius.circular(5)),
-      child: Icon(
-        Icons.shopping_bag_outlined,
-        color: black87,
+  return GestureDetector(
+    onTap: () => Get.to(CartPage()),
+    child: Padding(
+      padding: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
+      child: Container(
+        width: 35,
+        decoration: BoxDecoration(
+            color: pinkAncent.withOpacity(.50),
+            borderRadius: BorderRadius.circular(5)),
+        child: Icon(
+          Icons.shopping_bag_outlined,
+          color: black87,
+        ),
       ),
     ),
   );

@@ -1,3 +1,4 @@
+import 'package:ecommerce_freak/src/pages/addProductPage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:ecommerce_freak/src/helpers/all_Icons.dart';
@@ -6,6 +7,7 @@ import 'package:ecommerce_freak/src/pages/cartPage.dart';
 import 'package:ecommerce_freak/src/pages/favoriteProductsPage.dart';
 
 import 'package:ecommerce_freak/src/pages/settingsPage.dart';
+import 'package:get/get.dart';
 
 import 'homePage.dart';
 
@@ -42,20 +44,19 @@ class _BottomBarHomeState extends State<BottomBarHome> {
               backgroundColor: buttonColor,
               onPressed: () {},
               child: MaterialButton(
-                onPressed: () {
-                  setState(() {
-                    _currentScreens = HomePage();
-                    _currentTab = 5;
-                  });
-                },
-                child: SvgPicture.asset(
-                  _currentTab == 5 ? cameraSvg : cameraSvg,
-                  color: Colors.white,
-                  // color: _currentTab == 5
-                  //     ? buttonColor
-                  //     : black54,
-                  width: 20,
+                onPressed: () => Get.to(AddProductPage()),
+                child: Icon(
+                  Icons.add,
+                  color: white,
                 ),
+                // child: SvgPicture.asset(
+                //   _currentTab == 5 ? cameraSvg : cameraSvg,
+                //   color: Colors.white,
+                //   // color: _currentTab == 5
+                //   //     ? buttonColor
+                //   //     : black54,
+                //   width: 20,
+                // ),
               ),
             ),
           ),

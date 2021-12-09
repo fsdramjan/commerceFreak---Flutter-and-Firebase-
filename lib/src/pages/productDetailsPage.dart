@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:ecommerce_freak/src/pages/cartPage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -56,8 +57,17 @@ class ProductDetailsPage extends StatelessWidget {
                       Padding(
                         padding: EdgeInsets.symmetric(horizontal: 10),
                         child: Container(
-                          child: Image.asset(
-                            '${item['image']}',
+                          child: CachedNetworkImage(
+                            imageUrl: '${item['productImageUrl']}',
+                            fit: BoxFit.cover,
+                            progressIndicatorBuilder:
+                                (context, url, downloadProgress) => Center(
+                              child: CircularProgressIndicator(
+                                  backgroundColor: Colors.brown,
+                                  value: downloadProgress.progress),
+                            ),
+                            errorWidget: (context, url, error) =>
+                                Icon(Icons.error),
                           ),
                         ),
                       ),
@@ -66,14 +76,14 @@ class ProductDetailsPage extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           KText(
-                            text: 'FASHION',
+                            text: '${item['productCategory']}',
                             fontFamily: medium,
                             color: Colors.lightBlue,
                             fontSize: 11,
                           ),
                           SizedBox(width: 5),
                           KText(
-                            text: '\$${item['discountPrice']}',
+                            text: '\$${item['productDiscount']}',
                             fontFamily: regular,
                             decoration: TextDecoration.lineThrough,
                             color: black54,
@@ -85,13 +95,13 @@ class ProductDetailsPage extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           KText(
-                            text: '${item['title']}',
+                            text: '${item['productTitle']}',
                             fontFamily: bold,
                             fontSize: 16,
                           ),
                           SizedBox(width: 5),
                           KText(
-                            text: '\$${item['price']}',
+                            text: '\$${item['productPrice']}',
                             fontFamily: bold,
                             color: buttonColor,
                             fontSize: 18,
@@ -175,7 +185,7 @@ class ProductDetailsPage extends StatelessWidget {
                 children: [
                   quantityButton(),
                   KText(
-                    text: 'Total : ${item['price']}',
+                    text: 'Total : ${item['productPrice']}',
                     fontFamily: bold,
                     fontSize: 15,
                     color: black87,
